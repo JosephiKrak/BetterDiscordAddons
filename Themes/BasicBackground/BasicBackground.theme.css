@@ -19,7 +19,7 @@
 :root {
 	--transparencycolor:			0,0,0;						/* default:	0,0,0																								*/
 	--transparencyalpha:			0.15;						/* default: 0.15				(general darkness of the app)													*/
-	--messagetransparency:			0.5;						/* default: 0.5					(additional shadows behind messages, set to 0 to remove boxes)					*/
+	--messagetransparency:			0.3 !important;						/* default: 0.5					(additional shadows behind messages, set to 0 to remove boxes)					*/
 	--guildchanneltransparency:		0.15;						/* default: 0.15				(additional darkness for guild/channel list)									*/
 	--chatinputtransparency:		0.0;						/* default: 0.0					(additional darkness for chat input container)									*/
 	--memberlisttransparency:		0.0;						/* default: 0.0					(additional darkness for member list)											*/
@@ -29,7 +29,7 @@
 	--textshadow:					transparent;				/* default: transparent			(textshadow for text ontop of accentcolor nodes, ONLY accepts a color, no px)	*/
 	--settingsicons:				1;							/* Use Settings Icons in User Settings: 1 = yes, 0 = no															*/
 	
-	--background:					url(https://i.imgur.com/JNJdvZO.jpg) !important;	/* general background image				*/
+	--background:					linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://i.imgur.com/JNJdvZO.jpg) !important;	/* general background image				*/
 	--backgroundposition:			center;						/* default: center				(position of background - values: [center/top/right/bottom/left])				*/
 	--backgroundsize:				cover;						/* default: cover				(sizefit of background - values: [cover/contain/auto])							*/
 	--backgroundblur:				unset;						/* default: unset				(blur in px, only works when --background is set to an image)					*/
